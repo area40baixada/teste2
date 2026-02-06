@@ -6,6 +6,7 @@
     <title>Área40 AA - Baixada Santista </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="templatemo-nexaverse.css">
 </head>
@@ -16,12 +17,11 @@
         <div class="loading-text">Iniciando Recuperação...</div>
     </div>
 
-    <!-- Ambient Background 
    <div class="ambient-bg">
         <div class="orb orb-1"></div>
         <div class="orb orb-2"></div>
         <div class="orb orb-3"></div>
-    </div> -->
+    </div> 
 
     <!-- Grid Overlay -->
     <div class="grid-overlay"></div>
@@ -50,8 +50,8 @@
                 <div class="menu-title">REUNIÕES</div>
             </div>
             <div class="menu-item initial-load" data-section="contact">
-                <div class="menu-badge">CT</div>
-                <div class="menu-title">Contact</div>
+                <div class="menu-badge">📞</div>
+                <div class="menu-title">Contato</div>
             </div>
          </div>
 
@@ -161,9 +161,12 @@
                     <button class="filter-btn" onclick="filterGallery('sv', this)">São Vicente</button>
                     <button class="filter-btn" onclick="filterGallery('pg', this)">Praia Grande</button>
                     <button class="filter-btn" onclick="filterGallery('cb', this)">Cubatão</button>
-
-
+                    <button class="filter-btn" onclick="filterGallery('bt', this)">Bertioga</button>
+                    <button class="filter-btn" onclick="filterGallery('it', this)">Itanhahém</button>
+                    <button class="filter-btn" onclick="filterGallery('mo', this)">Mongaguá</button>
+                    <button class="filter-btn" onclick="filterGallery('pe', this)">Peruíbe</button>
                 </div>
+
                 <div class="gallery-grid">
                     <div class="gallery-item" data-category="sts">
                             <h2>GRUPO APARECIDA</h2><br>
@@ -345,10 +348,10 @@
                                                      </div>
                             </div>
                     </div>  
-                   <div class="gallery-item" data-category="pg">
+                   <div class="gallery-item" data-category="sv">
                                 <h2>GRUPO QUARENTENÁRIO</h2><br>
                                 <p>Rua Salvador, s/n - Jardim Irmã Dolores</p>
-                                <p>Praia Grande/SP</p><br>
+                                <p>São Vicente/SP</p><br>
                                 <p style="color: SteelBlue;font-weight: bolder;">Segunda e Sexta 19:00 às 21:00</p><br>
                                 <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
                                   <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
@@ -376,76 +379,182 @@
                                 <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 às 12:30</p><br>
                                 <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
                                   <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
-                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831984.3440317665!2d-50.130690093582366!3d-20.29313780089466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce10beee5bea33%3A0xac12656fc40fa6c9!2sA.A.%20Grupo%20S%C3%A3o%20Francisco%20de%20Assis!5e0!3m2!1spt-BR!2sbr!4v1770393825267!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3831984.3440317665!2d-50.130690093582366!3d-20.29313780089466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce10beee5bea33%3A0xac12656fc40fa6c9!2sA.A.%20Grupo%20S%C3%A3o%20Francisco%20de%20Assis!5e0!3m2!1spt-BR!2sbr!4v1770393825267!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
                                                      </div>
                             </div>
-                    </div>   
+                    </div>
+                    <div class="gallery-item" data-category="pg">
+                                <h2>GRUPO OCIAN</h2><br>
+                                <p>Rua Teófila Vanderlinde, 933 - Ocian</p>
+                                <p>Praia Grande/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Segunda a Sábado 20:00 às 22:00</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00 e 19:00 às 21:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.165022919908!2d-46.4863651238701!3d-24.025245178799825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1f78efce956d%3A0xa8909bbf0987934!2sA.%20A.%20Grupo%20Ocian!5e0!3m2!1spt-BR!2sbr!4v1770400436308!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                     </div>
+                            </div>
+                    </div>
+                    <div class="gallery-item" data-category="pg">
+                                <h2>GRUPO CURVA DO S</h2><br>
+                                <p>Rua Joaquim Osório Duque Estrada, 24536 - Balneário Esmeralda</p>
+                                <p>Praia Grande/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 18:00 as 21:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.074156897223!2d-46.518368923869936!3d-24.02844997891989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1f628690f35d%3A0xfb02367115ecb3a8!2sA.A.%20Grupo%20Curva%20do%20%22S%22!5e0!3m2!1spt-BR!2sbr!4v1770400597723!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                 </div>
+                             </div>
+                     </div>
+                    <div class="gallery-item" data-category="bt">
+                                <h2>GRUPO BERTIOGA</h2><br>
+                                <p>Rua Rafael Costábile, 719 - ITAPANHAU</p>
+                                <p>Bertioga/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Sábado 16:00 as 18:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.2858688981296!2d-46.141336223875406!3d-23.84398057203753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdfd5d9f2d3b9d%3A0x8f967989fde84428!2sA.A.%20Grupo%20Bertioga%20Costa%20Norte!5e0!3m2!1spt-BR!2sbr!4v1770400961284!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                     </div>
+                    </div>
+        </div>   
+                    <div class="gallery-item" data-category="it">
+                                <h2>GRUPO PROSPERIDADE</h2><br>
+                                <p>Rua José Batista Campos 1321 - Jardim Oásis</p>
+                                <p>Itanhahém/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Seg/Qua/Sexta 19:30 as 21:30</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.060817245154!2d-46.78805642386573!3d-24.169599784220978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce2a7e3fc1695b%3A0xa697a4b6c9833883!2sA.A.%20Grupo%20Prosperidade!5e0!3m2!1spt-BR!2sbr!4v1770401439959!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                     </div>
+                    </div>
+        </div>   
+                    <div class="gallery-item" data-category="it">
+                                <h2>GRUPO SERENIDADE</h2><br>
+                                <p>Rua Ana Maria Martins Rivera, 10 - Corumbá</p>
+                                <p>Itanhahém/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Seg/Ter/Qui/Sex 20:00 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839684.6210508677!2d-49.82396547991189!3d-19.97945058180216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d1d550baebafb7%3A0x66deaf53b19dbdbd!2sA.A.%20Grupo%20Serenidade!5e0!3m2!1spt-BR!2sbr!4v1770401779433!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>  
+                    <div class="gallery-item" data-category="gua">
+                                <h2>GRUPO SENHOR DOS PASSOS</h2><br>
+                                <p>Av. Guarujá, 757 -Sítio Paecara </p>
+                                <p>Guarujá/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Terça e Quinta 19:30 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2594001196367!2d-46.29091371383173!3d-23.95126572066887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03d7d6d28b8d%3A0x2f892413145e9b70!2sA.A.%20Grupo%20Senhor%20dos%20Passos!5e0!3m2!1spt-BR!2sbr!4v1770401948702!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>    
+                    <div class="gallery-item" data-category="pg">
+                                <h2>GRUPO SAMAMBAIA</h2><br>
+                                <p>Av. Jaíro de Camargo Martins 1645 CASA 2 - Samambaia</p>
+                                <p>Praia Grande/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Terça e Quinta 19:30 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 18:00 as 20:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.0983715609736!2d-46.53280732387016!3d-24.027595978887838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce212a9a741fc9%3A0xa5980956d0b02e96!2sA.A.%20Grupo%20Samambaia!5e0!3m2!1spt-BR!2sbr!4v1770402243229!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>  
+                    <div class="gallery-item" data-category="pg">
+                                <h2>GRUPO SOLEMAR</h2><br>
+                                <p>Av. Presidente Kennedy, 19900 - Vila Caiçara</p>
+                                <p>Praia Grande/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Terça e Quinta 19:30 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.664596848561!2d-46.59196232386851!3d-24.078113080781602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce20cc2d594c77%3A0x797009d8aa4c22cd!2sA.A.%20Grupo%20Solemar!5e0!3m2!1spt-BR!2sbr!4v1770402361873!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>                                     
+                    <div class="gallery-item" data-category="mo">
+                                <h2>GRUPO INDEPENDÊNCIA</h2><br>
+                                <p>Rua Nossa Senhora da Rosa Mística, 525 - Itaguaia</p>
+                                <p>Mongaguá/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Terça e Quinta 19:30 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.182804866329!2d-46.70068222386697!3d-24.1302174827389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce28386de490b3%3A0x2f5a4272e7a04ff3!2sA.A.%20Grupo%20Independ%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1770402547014!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>                                     
+                    <div class="gallery-item" data-category="pe">
+                                <h2>GRUPO PERUÍBE</h2><br>
+                                <p>Av. Semyramis de Souza Rossi, 1349 - Parque Oásis</p>
+                                <p>Peruíbe/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Terça e Quinta 19:30 as 21:30</p>
+                                <p style="color: SteelBlue;font-weight: bolder;">Domingo 10:00 as 12:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.182804866329!2d-46.70068222386697!3d-24.1302174827389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce28386de490b3%3A0x2f5a4272e7a04ff3!2sA.A.%20Grupo%20Independ%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1770402547014!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>                                     
+                    <div class="gallery-item" data-category="mo">
+                                <h2>GRUPO PERUÍBE</h2><br>
+                                <p>Av. São Paulo, 458 - Cidade Beira Mar</p>
+                                <p>Mongaguá/SP</p><br>
+                                <p style="color: SteelBlue;font-weight: bolder;">Seg/Qua/Sab 19:00 as 21:00</p><br>
+                                <div class="mapouter" style="position:relative; text-align:right; width:100%; height:100%;">
+                                  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:100%;">
+                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.3467274959858!2d-46.612846023868194!3d-24.089299281201512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce276aefaf5029%3A0x37d2815f241725f!2sA.A.%20Grupo%20Mongagu%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1770402932690!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                  </div>
+                                </div>
+                     </div>                                     
+
+
      </div>
 </div>
+</center>
 
             <!-- Contact Section -->
             <div class="content-section" id="contact">
                 <div class="section-header-small">
                     <div class="small-logo">
-                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="smallLogoGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#00f0ff"/>
-                                    <stop offset="100%" style="stop-color:#ff00d4"/>
-                                </linearGradient>
-                            </defs>
-                            <polygon points="50,10 85,32 85,68 50,90 15,68 15,32" fill="none" stroke="url(#smallLogoGrad6)" stroke-width="3"/>
-                            <circle cx="50" cy="50" r="10" fill="url(#smallLogoGrad6)"/>
-                        </svg>
+                         <img src="images/logo.png" width="50px" height="50px">
                     </div>
                     <div class="small-brand">
-                        <h3>NEXAVERSE</h3>
-                        <p>Digital Excellence</p>
                     </div>
                 </div>
-                <button class="back-btn" onclick="backToMenu()">← Back to Menu</button>
+                <button class="back-btn" onclick="backToMenu()">← Voltar Menu</button>
 
                 <div class="section-header">
-                    <h2 class="section-title">Get in Touch</h2>
-                    <p class="section-subtitle">Let's create something amazing together</p>
+                    <h2 class="section-title">CONTATO</h2>
+                    <p class="section-subtitle">Precisa de ajuda, entre em contato conosco!</p>
                 </div>
 
-                <div class="contact-grid">
-                    <div class="contact-form">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message"></textarea>
-                        </div>
-                        <button class="submit-btn">Send Message</button>
-                    </div>
                     <div class="contact-info">
                         <div class="contact-item">
                             <div class="contact-icon">📍</div>
                             <div class="contact-details">
-                                <h4>Location</h4>
-                                <p>123 Innovation Drive, San Francisco, CA 94107</p>
+                                <h4>Escritório de Serviços Locais de Alcoólicos Anônimos (ESL - Área 40)</h4>
+                                <p>Praça José Bonifácio, 59 3º andar salas 12 e 13Centro – CEP: 11013-190 - Santos – SP</p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">📧</div>
                             <div class="contact-details">
                                 <h4>Email</h4>
-                                <p>hello@nexaverse.com</p>
+                                <p><a href="mailto:esl@area40sp.aa.org.br">esl@area40sp.aa.org.br</a></p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <div class="contact-icon">📞</div>
                             <div class="contact-details">
-                                <h4>Phone</h4>
-                                <p>+1 (555) 123-4567</p>
+                                <h4>Telefones</h4>
+                                <p><a href="tel:+5513991332543">(13) 99133-2543</a></p>
+                                <p><a href="tel:+551332243023">(13) 3224-3023</p>
+                                <p><a href="tel:+55133235 5301">(13) 3235-5301</p>
                             </div>
                         </div>
                     </div>
